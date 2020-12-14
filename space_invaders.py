@@ -20,12 +20,12 @@ from Fonctions import Alien
 
 
 #PP
-fenetre = Tk()                                                                      #Création fenêtre graphique
+fenetre = Tk()                                                                 #Création fenêtre graphique
 fenetre.title ('Space Invaders')
 fenetre.geometry ('1000x800+100+40')
 
 #-------------------------------------------------------------------------------------------------------------------------------
-menu1=Menu(fenetre)                                                                  #Menu A RAJOUTER COMMANDE POUR A PROPOS !!!!!!!
+menu1=Menu(fenetre)                                                            #Menu A RAJOUTER COMMANDE POUR A PROPOS !!!!!!!
 
 menufichier2=Menu(menu1, tearoff=0) 
 menufichier2.add_command(label="A propos")
@@ -51,7 +51,6 @@ Label1.pack(side='top', padx=5)
 #can1.after(10, movement) 
 
 alien1=Alien(can1)
-
 
 	
 
