@@ -7,14 +7,14 @@ Created on Mon Dec 14 13:26:13 2020
 Space invaders
 
 TODO : 
-lui faire décrire  un  mouvement  d’aller-retour  à  vitesse  constante  pas  trop  rapide  sur  une  ligne  en  gérant  
-les collisions avec le bord du canevas. 
-L’Alien restera indéfiniment sur cette même ligne pour le moment. 
+ 
+Insérer un vaisseau (une image ou une forme simple) vers le bas de l’image et permettre au joueur de
+déplacer ce vaisseau avec les touches gauche et droite. 
 """
 
 #IMPORTATION BIBLIOTHEQUES
 from tkinter import Tk, Button, Canvas, Label, Menu
-from Fonctions import Alien
+from Fonctions import Alien, Vaisseau
 
 #Fonctions tests
 
@@ -51,7 +51,7 @@ Label1.pack(side='top', padx=5)
 #can1.after(10, movement) 
 
 alien1=Alien(can1)
-
+vaisseau1=Vaisseau(can1)
 	
 
 #-------------------------------------------------------------------------------------------------------------------------------
